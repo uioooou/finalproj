@@ -40,7 +40,7 @@ const HotelRoomReview = () => {
           <p className="text-default">
             The knowledge and skills i get from the jobs
           </p>
-          <div className="d-flex mt-5">
+          <div className="d-flex mt-5 overflow-auto w-100">
             {CardList.map((content) => (
               <div
                 key={content.id}
