@@ -34,13 +34,13 @@ const HotelRoomReview = () => {
 
   return (
     <section>
-      <div className="fit-device py-5">
+      <div className="fit-device">
         <Container className="d-flex flex-column justify-content-center h-100 mt-5">
           <h1 className="text-uppercase">Technologies and Skills</h1>
           <p className="text-default">
             The knowledge and skills i get from the jobs
           </p>
-          <div className="d-flex mt-5 overflow-auto w-100">
+          <div className="d-flex mt-5 overflow-auto w-100 box-shadow-x">
             {CardList.map((content) => (
               <div
                 key={content.id}

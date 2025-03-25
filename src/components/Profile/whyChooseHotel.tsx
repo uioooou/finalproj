@@ -23,13 +23,13 @@ const WhyChooseHotel = () => {
 
   return (
     <section id="chooseHotel">
-      <div className="fit-device py-5">
+      <div className="fit-device">
         <Container>
           <h1 className="text-uppercase">Why Choose Our Hotel</h1>
           <p className="text-default">
             if u are happy,feel free to leave a review to us!
           </p>
-          <Row className="mt-5 g-5">
+          <Row className="mt-2 g-4">
             {reasonList.map((content, index) => {
               return (
                 <Col key={index} md={6}>

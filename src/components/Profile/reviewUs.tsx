@@ -23,15 +23,15 @@ const ReviewUs = () => {
 
   return (
     <section>
-      <div className="fit-device py-5">
-        <Container className="d-flex flex-column justify-content-center h-100 t-5">
+      <div className="fit-device">
+        <Container className="d-flex flex-column justify-content-center h-100">
           <h1 className="text-uppercase">Put Your Review</h1>
           <p className="text-default">
             if u are happy,feel free to leave a review to us!
           </p>
           <Row>
-            <Col xs={8}>
-              <div className="review-card p-5 mt-5 text-light">
+            <Col xs={12} xl={8}>
+              <div className="review-card p-4 mt-5 text-light">
                 {StarRating}
 
                 <Form className="mt-5">
@@ -50,11 +50,11 @@ const ReviewUs = () => {
                     <Form.Control as="textarea" rows={3} />
                   </Form.Group>
                 </Form>
-              </div>
-            </Col>
-            <Col xs={4}>
-              <div className="review-card p-5 mt-5">
-                
+                <div className="d-flex">
+                  <button className="header-button pointer-cursor ms-auto">
+                    <h5 className="fw-bold m-0">Submit</h5>
+                  </button>
+                </div>
               </div>
             </Col>
           </Row>

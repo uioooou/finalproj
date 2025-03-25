@@ -10,7 +10,7 @@ const Layout: FC<LayoutProps> = ({ children }) => {
   return (
     <>
       <Header />
-      <div>{children}</div>
+      <div className="custom-margin">{children}</div>
       <Footer />
     </>
   );
